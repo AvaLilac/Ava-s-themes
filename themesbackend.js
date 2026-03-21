@@ -1,10 +1,10 @@
 {
   "themes": [
     {
-      "name": "Example Theme",
-      "author": "Example Author",
-      "preview": "https://www.example.com/preview.png",
-      "download": "https://www.example.com/theme.css"
+      "name": "Custom Placeholder Theme",
+      "author": "AvaLilac",
+      "preview": "https://raw.githubusercontent.com/AvaLilac/Ava-s-themes/refs/heads/main/CustomPlaceHolder/preview.png",
+      "download": "https://raw.githubusercontent.com/AvaLilac/Ava-s-themes/refs/heads/main/CustomPlaceHolder/CustomPlaceholderTheme.css"
     }
   ]
 }
