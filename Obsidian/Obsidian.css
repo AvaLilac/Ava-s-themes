@@ -1,0 +1,8 @@
+/*
+@name Obsidian
+@author AvaLilac
+@version 1.1
+@description AMOLED Theme for Stoat
+*/
+
+:root{--md-sys-color-surface-container-lowest:#000!important;--md-sys-color-surface-container-low:#000!important}*{--md-sys-color-surface-container-lowest:#000000!important}*{--md-sys-color-surface-container-low:#000!important}.will-change_transform.scr-bar-w_none.ov-y_scroll.flex-g_1{background-color:#0a0a0a!important}[style*="background: var(--md-sys-color-surface-container-highest)"],[style*="background: var(--md-sys-color-surface-container"]{background:#121212!important}.bg_var\(--md-sys-color-surface-container-highest\),.bg_var\(--md-sys-color-surface-container-high\),.bg_var\(--md-sys-color-surface\){background-color:#121212!important}.group:hover{background-color:#121212!important}.bg_var\(--md-sys-color-secondary-container\){background-color:#1a1a1a!important}[style*="background: transparent"][style*="font-family: monospace"]{background-color:#181818!important}.bg_var\(--md-sys-color-surface-container\){background-color:#181818!important}.bg_var\(--md-sys-color-primary-container\){background-color:#1c1c1c!important}
