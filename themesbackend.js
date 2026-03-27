@@ -11,6 +11,12 @@
       "author": "AvaLilac#7432",
       "preview": "https://raw.githubusercontent.com/AvaLilac/Ava-s-themes/refs/heads/main/Obsidian/preview.png",
       "download": "https://raw.githubusercontent.com/AvaLilac/Ava-s-themes/refs/heads/main/Obsidian/Obsidian.css"
+    },
+    {
+      "name": "Transparent Panels",
+      "author": "AvaLilac#7432",
+      "preview": "https://raw.githubusercontent.com/AvaLilac/Ava-s-themes/refs/heads/main/AviaClientPanelsTransparent/preview.png",
+      "download": "https://raw.githubusercontent.com/AvaLilac/Ava-s-themes/refs/heads/main/AviaClientPanelsTransparent/AviaClient_transparent_panels.css"
     }
   ]
 }
