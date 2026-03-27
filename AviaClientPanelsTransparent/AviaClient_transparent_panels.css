@@ -1,0 +1,13 @@
+/*
+@name AviaClient transparent panels
+@author AvaLilac
+@version 1.0
+@description Turns all AviaClient Panels transparent
+*/
+
+[style*="z-index: 999999"]{
+  background:rgba(0,0,0,.45)!important;
+  backdrop-filter:blur(8px) saturate(120%)!important;
+  -webkit-backdrop-filter:blur(8px) saturate(120%)!important;
+  border:1px solid rgba(255,255,255,.15)!important
+}
