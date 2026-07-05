@@ -1,0 +1,41 @@
+/*
+ * @name Background
+ * @author AvaLilac
+ * @version 1.0
+ * @description  Background theme
+ */
+
+/* ===== Dimmer Control ===== */
+:root{
+  --bg-dim:0; /* 0 = none | 100 = fully black */
+}
+
+.d_flex.flex-d_row.flex-g_initial.flex-wrap_initial.gap_var\(--gap-md\).ai_center.jc_initial.fs_0\.8em.us_none.mbe_var\(--gap-md\).p_var\(--gap-md\)_var\(--gap-lg\).bdr_var\(--borderRadius-lg\).bg_var\(--md-sys-color-primary-container\).c_var\(--md-sys-color-on-primary-container\),
+.d_flex.us_none.flex-d_column.gap_var\(--gap-md\).p_var\(--gap-md\).m_var\(--gap-md\)_0.bdr_var\(--borderRadius-lg\).bg_var\(--md-sys-color-primary-container\).c_var\(--md-sys-color-on-primary-container\),
+.pointer-events_all.max-w_100\%.trs_var\(--transitions-fast\)_all.trs-tmf_ease-in-out.bdr_var\(--borderRadius-lg\).bg_var\(--md-sys-color-secondary-container\).w_100\%.h_40vh,
+.us_none.pointer-events_all.w_100\%.h_100\%.d_flex.ai_center.flex-d_column.jc_center.gap_var\(--gap-md\).p_var\(--gap-md\).bdr_var\(--borderRadius-lg\).bg_var\(--md-sys-color-secondary-container\),
+.pos_relative.d_flex.us_none.ai_center.w_100\%.gap_var\(--gap-md\).p_var\(--gap-md\).bdr_var\(--borderRadius-lg\).cursor_pointer{
+  background:rgba(255,255,255,.08)!important;
+  backdrop-filter:blur(20px) saturate(180%)!important;
+  -webkit-backdrop-filter:blur(20px) saturate(180%)!important;
+  border:1px solid rgba(255,255,255,.18)!important;
+  color:#fff!important
+}
+
+.pos_relative.d_flex.us_none.ai_center.w_100\%.gap_var\(--gap-md\).p_var\(--gap-md\).bdr_var\(--borderRadius-lg\).cursor_pointer{
+  fill:#fff!important
+}
+
+/* ===== Background Image + Dimmer ===== */
+.flex-g_1.min-w_0.min-h_0.d_flex.ov_hidden.flex-d_column{
+  background:none!important;
+  background-image:
+    linear-gradient(
+      rgba(0,0,0,calc(var(--bg-dim)/100)),
+      rgba(0,0,0,calc(var(--bg-dim)/100))
+    ),
+    url("YOUR BACKGROUND LINK GOES HERE")!important;
+  background-size:cover!important;
+  background-position:center!important;
+  background-repeat:no-repeat!important
+}
