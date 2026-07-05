@@ -5,7 +5,6 @@
  * @description  Background theme
  */
 
-/* ===== Dimmer Control ===== */
 :root{
   --bg-dim:0; /* 0 = none | 100 = fully black */
 }
@@ -26,7 +25,7 @@
   fill:#fff!important
 }
 
-/* ===== Background Image + Dimmer ===== */
+/* ===== Background Image ===== */
 .flex-g_1.min-w_0.min-h_0.d_flex.ov_hidden.flex-d_column{
   background:none!important;
   background-image:
