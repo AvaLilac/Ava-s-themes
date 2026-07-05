@@ -17,6 +17,12 @@
       "author": "AvaLilac#7432",
       "preview": "https://raw.githubusercontent.com/AvaLilac/Ava-s-themes/refs/heads/main/AviaClientPanelsTransparent/preview.png",
       "download": "https://raw.githubusercontent.com/AvaLilac/Ava-s-themes/refs/heads/main/AviaClientPanelsTransparent/AviaClient_transparent_panels.css"
+    },
+    {
+      "name": "Background",
+      "author": "AvaLilac#7432",
+      "preview": "https://raw.githubusercontent.com/AvaLilac/Ava-s-themes/refs/heads/main/background/preview.png",
+      "download": "https://raw.githubusercontent.com/AvaLilac/Ava-s-themes/refs/heads/main/background/Background.css"
     }
   ]
 }
