@@ -11,6 +11,9 @@ svg[viewBox="0 0 32 32"][style*="16px"] img.obj-f_cover,
 
 /*Server Settings role icons*/
 svg[viewBox="0 0 32 32"][style*="24px"] .bdr_var\(--borderRadius-md\),
-svg[viewBox="0 0 32 32"][style*="24px"] img.obj-f_cover {
+svg[viewBox="0 0 32 32"][style*="24px"] img.obj-f_cover,
+
+/*Member list icons*/
+div.p_28px_14px_0 > img.w_16px.h_16px.bdr_var\(--borderRadius-sm\).obj-f_cover {
     border-radius: 0 !important;
 }
