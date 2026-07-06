@@ -1,0 +1,12 @@
+/*
+@name Status Card Fix
+@author Whatever Author Here
+@version 1.0
+@description Make The Status Card Not Clip When User Has Long Status
+*/
+
+div.asp_1\/1:has(> span.us_text) {
+    aspect-ratio: auto !important;
+    height: fit-content !important;
+    overflow: visible !important;
+}
