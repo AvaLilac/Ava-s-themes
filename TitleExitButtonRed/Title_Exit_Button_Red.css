@@ -1,0 +1,10 @@
+/*
+@name Title Exit Button Red
+@author AvaLilac
+@version 1.0
+@description Turns the Exit button Red. Or whatever colour you want
+*/
+
+div.flex-sh_0 a:has(svg path[d*="249-207"]):hover {
+  background-color: rgb(210, 45, 45) !important;
+}
