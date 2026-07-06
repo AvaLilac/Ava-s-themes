@@ -1,0 +1,12 @@
+/*
+@name Fix Attachment files
+@author AvaLilac
+@version 1.0
+@description Fixs Attachment files with text showing inside to only show half way
+*/
+
+.d_grid[style*="width: 420px"]:has(pre code) {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+}
