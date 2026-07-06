@@ -1,0 +1,13 @@
+/*
+@name Catppuccin Machiato Headliner Theming
+@author AvaLilac
+@version 1.0
+@description Modifys headliners text to align with Raptors Catppuccin Machiato
+*/
+
+.flex-sh_0.h_29px.us_none.d_flex.ai_center.fill_var\(--md-sys-color-on-surface\).c_var\(--md-sys-color-outline\).bg_var\(--md-sys-color-surface-container-high\)::before {
+  color: #cad3f5 !important;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+
+  text-shadow: 0 0 4px rgba(183, 189, 248, 0.15);
